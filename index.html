@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>9 dars</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+</head>
+<body class="p-[35px] flex gap-[35px] items-center justify-center">
+
+    <ul class="list p-5 w-[350px] space-y-[5] border-[2px] border-blue-500 rounded-md h-[90ch] overflow-y-auto"></ul>
+    <ul class="posts p-5 w-[350px] space-y-[5] border-[2px] border-blue-500 rounded-md h-[90ch] overflow-y-auto"></ul>
+    <ul class="comments p-5 w-[350px] space-y-[5] border-[2px] border-blue-500 rounded-md h-[90ch] overflow-y-auto"></ul>
+    
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>

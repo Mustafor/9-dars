@@ -1,0 +1,9 @@
+.item:hover{
+    transition: all 0.3s linear;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.item:active{
+    transition: all 0.3s linear;
+    box-shadow: 20px 2px 20px 2px rgb(255, 0, 0);
+}
